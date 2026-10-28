@@ -3,13 +3,32 @@
   "name": "com.aipozi/aipozi",
   "title": "aipozi",
   "description": "Daily AI visibility: who ChatGPT, Claude, Gemini and Perplexity name instead of you. Domain tools.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://aipozi.com/mcp",
   "icons": [
-    { "src": "https://aipozi.com/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
-    { "src": "https://aipozi.com/logo.png", "mimeType": "image/png", "sizes": ["512x512"] }
+    {
+      "src": "https://aipozi.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://aipozi.com/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://aipozi.com/mcp" }
-  ]
+    {
+      "type": "streamable-http",
+      "url": "https://aipozi.com/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/aipozi-Analytics/mcp",
+    "source": "github"
+  }
 }
